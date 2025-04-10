@@ -10,7 +10,6 @@ A Node.js API with JWT authentication, Google OAuth2 login, and role-based acces
 - **MongoDB** integration with Mongoose
 - Organized project structure and modular code
 
----
 
 ## Tech Stack
 
@@ -21,7 +20,6 @@ A Node.js API with JWT authentication, Google OAuth2 login, and role-based acces
 - JSON Web Tokens (JWT)
 - bcryptjs (for password hashing)
 
----
 
 ## Setup
 
