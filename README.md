@@ -3,10 +3,25 @@
 A Node.js API with JWT authentication, Google OAuth2 login, and role-based access (User/Admin). Built with Express and MongoDB.
 
 ## Features
-- JWT-based login and registration
-- Google OAuth2 login
-- Role-based access control
-- MongoDB database
+
+- **User Registration and Login** with JWT authentication
+- **Google OAuth2** login support
+- **Role-Based Access Control** (User/Admin)
+- **MongoDB** integration with Mongoose
+- Organized project structure and modular code
+
+---
+
+## Tech Stack
+
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- Passport.js (for Google OAuth2)
+- JSON Web Tokens (JWT)
+- bcryptjs (for password hashing)
+
+---
 
 ## Setup
 
