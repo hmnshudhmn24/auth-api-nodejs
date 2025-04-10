@@ -1,30 +1,27 @@
 # Authentication & Authorization API
 
-## Features
+A Node.js API with JWT authentication, Google OAuth2 login, and role-based access (User/Admin). Built with Express and MongoDB.
 
+## Features
 - JWT-based login and registration
 - Google OAuth2 login
-- Role-based access control (User/Admin)
-- MongoDB for database
-- Express.js for REST API
+- Role-based access control
+- MongoDB database
 
-## Setup Instructions
+## Setup
 
 1. Clone the repository
-
-```
+```bash
 git clone https://github.com/yourusername/auth-api.git
 cd auth-api
 ```
 
 2. Install dependencies
-
-```
+```bash
 npm install
 ```
 
-3. Create a `.env` file and configure your environment variables
-
+3. Create `.env` file
 ```
 PORT=5000
 MONGO_URI=your_mongodb_uri
@@ -34,19 +31,14 @@ GOOGLE_CLIENT_SECRET=your_google_client_secret
 ```
 
 4. Run the server
-
-```
+```bash
 npm run dev
 ```
 
-## API Endpoints
+## Endpoints
 
-- `POST /api/auth/register` - Register new user
-- `POST /api/auth/login` - Login user and receive JWT
-- `GET /api/auth/google` - Google OAuth2 login
-- `GET /api/users/profile` - Get current user profile (JWT required)
-- `GET /api/users/admin` - Admin-only route (JWT + role required)
-
-## License
-
-MIT
+- `POST /api/auth/register`
+- `POST /api/auth/login`
+- `GET /api/auth/google`
+- `GET /api/users/profile`
+- `GET /api/users/admin`
